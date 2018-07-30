@@ -1,0 +1,30 @@
+<!DOCTYPE html><html><head>
+<script src="
+https://aframe.io/releases/0.7.0/aframe.min.js"></script><script src="
+https://sdk.altvr.com/libs/altspace.js/2.9.0/altspace.min.js"></script></head>
+<body>
+<a-scene altspace="fullspace: true">
+<a-assets>
+
+
+</a-assets>
+
+
+ 
+
+<a-entity id="new-cube-entity " geometry="primitive: box; width:1; height:1; depth:1;" n-box-collider=' center: 0 0 0; size: 1 1 1; isTrigger: false; type: object;' position="0 0.51 0" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #0EEC42;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="new-plane-entity " geometry="primitive: plane; width:10; height:-10;" n-mesh-collider=' isTrigger: false; type: object;' position="0 0 0" rotation="-270 0 0" material="shader: 
+standard; transparent: false; color: #BC3838;  side: double; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+
+
+
+</a-scene>
+</body>
+</html>
